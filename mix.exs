@@ -19,7 +19,7 @@ defmodule Publicalized.Mixfile do
   def application do
     [mod: {Publicalized, []},
      applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext,
-                    :phoenix_ecto, :postgrex]]
+                    :phoenix_ecto, :postgrex, :httpoison, :calendar, :floki]]
   end
 
   # Specifies which paths to compile per environment.
