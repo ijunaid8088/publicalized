@@ -36,7 +36,7 @@ defmodule Publicalized.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_publicalized_key",
-    signing_salt: "afMmzk5J"
+    signing_salt: "H3dqanbh"
 
   plug Publicalized.Router
 end
