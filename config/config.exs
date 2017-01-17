@@ -12,7 +12,7 @@ config :publicalized,
 # Configures the endpoint
 config :publicalized, Publicalized.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "7RbdUDZXYC8pUYnUjMGaB1SNRBYVfuqRvJG+VN+tDkT8JJGjvYngCyKKnf1GFD8P",
+  secret_key_base: "t719j7FZW142HBHgsA//KeIUnsJt72JseFSyj6bBWauSALEWGfj7ROvp7/l56OtC",
   render_errors: [view: Publicalized.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Publicalized.PubSub,
            adapter: Phoenix.PubSub.PG2]
